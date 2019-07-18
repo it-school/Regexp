@@ -89,8 +89,7 @@ namespace Regexp
                     Console.WriteLine("File " + f.Name + ":");
 
                     // Открываем файл
-                    sr = new StreamReader(di.FullName + @"\" + f.Name,
-                        Encoding.Default);
+                    sr = new StreamReader(di.FullName + @"\" + f.Name, Encoding.Default);
                     // Считываем целиком
                     string Content = sr.ReadToEnd();
                     // Закрываем файл
