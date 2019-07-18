@@ -102,9 +102,7 @@ namespace Regexp
                         Console.WriteLine("Текст найден в позиции: {0}.", m.Index);
 
                     if (mc.Count == 0)
-                    {
                         Console.WriteLine("В данном файле запрошенный текст не найден.");
-                    }
                 }
             }
 
